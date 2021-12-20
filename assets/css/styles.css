@@ -1,0 +1,49 @@
+/* el // (.) PUNTO //  es un selector de elemento para no midificar los demas     . ( + ) la clase */
+
+/* LAS CLASES SON REUTILIZABLES LAS PUEDO USAR SOLO MENCIONANDO EL NOMBRE DE LA CLASE    */
+
+.encabezado {
+  /* //  font-size  // sirve para el tamaño de letra medidas comunes px, %, em, rem*/
+  font-size: 72px;
+
+  /* // color // de letras */
+
+  color: rgb(216, 91, 33);
+
+  /* // background-color // color de fondo */
+
+  background-color: dimgrey;
+
+  /* //  text-aling  // permite alinear el texto  */
+
+  text-align: center;
+
+  /*  // text-transform: uppercase // para poner todo en mayusculas */
+
+  text-transform: uppercase;
+}
+
+body {
+  background-color: rgb(160, 185, 207);
+}
+
+/* este es  un ejemplo de selectores entre mas especifico mayor  // JERARQUIA // tendra en este caso aunque los siguentes selectores se refieren al mismo texto , la clase ".texto" tiene mayor jerarquia y sera el diseño que se llevara acabo */
+
+/* VALOR DE SELECTORES //1-- etiqueta//   // 10 -- clase//   // 100 -- id  //  //1000 --  poner el style en el html dentro de la misma linea de codigo// */
+
+p {
+  background-color: chocolate;
+  color: black;
+}
+
+.texto {
+  color: blanchedalmond;
+  background-color: black;
+}
+
+#encabezado {
+  background-color: rgb(42, 47, 47);
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

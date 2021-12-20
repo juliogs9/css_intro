@@ -1,0 +1,33 @@
+section {
+  background-color: lightblue;
+  width: 800px;
+  height: 400px;
+  border: unset;
+}
+
+h1 {
+  text-align: right;
+}
+
+span {
+  color: red;
+}
+
+.yei {
+  color: rgb(238, 97, 15);
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.yoi {
+  color: rgb(11, 124, 11);
+  background-color: white;
+}
+
+.yel {
+  text-align: center;
+  font-size: 18px;
+}
